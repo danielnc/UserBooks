@@ -25,3 +25,5 @@ gem 'jquery-rails'
 gem 'devise'
 
 gem 'pg'
+
+gem 'isbn_validation'
