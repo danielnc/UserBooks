@@ -27,3 +27,5 @@ gem 'devise'
 gem 'pg'
 
 gem 'isbn_validation'
+
+gem 'jquery-star-rating-rails'

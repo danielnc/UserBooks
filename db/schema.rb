@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130525150833) do
+ActiveRecord::Schema.define(:version => 20130525160049) do
 
   create_table "books", :force => true do |t|
     t.string   "title",      :null => false
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(:version => 20130525150833) do
     t.integer  "book_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "rating"
   end
 
   add_index "user_read_books", ["user_id", "book_id"], :name => "index_user_read_books_on_user_id_and_book_id", :unique => true
