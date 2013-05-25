@@ -19,7 +19,7 @@
       <tbody>
         <% @book.user_read_books.each { |user_read_books| %>
         <td><%= user_read_books.user.email %></td>
-        <td><%= user_read_books.rating || "N/A" %>
+        <td><%= show_rating_values(user_read_books, !current_user.admin?) %>
           <% } %>
           <tr>
           </tr>

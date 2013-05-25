@@ -54,6 +54,8 @@ GEM
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
+    jquery-star-rating-rails (4.0.4)
+      rails (>= 3.1.0)
     json (1.8.0)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -123,6 +125,7 @@ DEPENDENCIES
   devise
   isbn_validation
   jquery-rails
+  jquery-star-rating-rails
   pg
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
